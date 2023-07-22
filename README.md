@@ -31,3 +31,4 @@ $ docker run --name vprodb -d -e MYSQL_ROOT_PASSWORD=vprodbpass vprodb
 $ docker run --name vproapp --link vprodb:mysql -d -p 8080:8080 vproapp
 
 
+hi
